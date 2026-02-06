@@ -1,0 +1,16 @@
+name = "mykeys"
+main = "src/index.ts"
+compatibility_date = "2026-02-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "password-bot-db"
+database_id = "your-database-id-here"
+
+[vars]
+ALLOWED_USER_ID = "your-telegram-user-id"
+
+# 以下通过 wrangler secret put 设置，不要写在这里
+# TELEGRAM_BOT_TOKEN
+# ENCRYPT_KEY
+# ADMIN_SECRET
