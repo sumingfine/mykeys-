@@ -12,7 +12,7 @@ database_id = "your-database-id-here"  # npx wrangler d1 list 获取
 crons = ["0 1 * * *"]
 
 [vars]
-ALLOWED_USER_ID = "your-telegram-user-id"  # @userinfobot 获取
+ALLOWED_USER_ID = "8462911398"  # @userinfobot 获取
 
 # 以下通过 wrangler secret put 设置，不要写在这里
 # TELEGRAM_BOT_TOKEN  - @BotFather 获取
